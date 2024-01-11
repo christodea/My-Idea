@@ -1,8 +1,9 @@
 body {
   background-color: darkblue;
-  width: 100%;
+  min-height: 100vh;
 }
 
 .card {
   background-color: #fff;
 }
+
