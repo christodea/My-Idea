@@ -1,9 +1,35 @@
 body {
-  background-color: darkblue;
+  background-color: hsl(244, 38%, 16%);
   min-height: 100vh;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 700px;
+  height: 295px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card {
   background-color: #fff;
+  align-items: center;
 }
 
+p {
+  color: gray;
+}
+
+.rolls-complement {
+  font-size: 15px;
+}
+
+.delivery {
+  font-size: 11px;
+  line-height: 2px;
+}
