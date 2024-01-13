@@ -33,3 +33,7 @@ p {
   font-size: 11px;
   line-height: 2px;
 }
+
+.image {
+  width: 40%;
+}
