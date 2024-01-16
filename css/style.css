@@ -1,24 +1,39 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 body {
   background-color: hsl(244, 38%, 16%);
   min-height: 100vh;
-  font-size: 15px;
+  font-size: 14px;
   align-items: center;
   display: flex;
   justify-content: center;
+  font-family: 'Inter';
+}
+
+.main {
+  color: hsl(244, 38%, 16%);
 }
 
 .container {
-  width: 600px;
-  height: 295px;
+  width: 320px;
+  height: 220px;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 }
 
 .card {
   background-color: #fff;
   align-items: center;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.header {
+  margin-top: 15px;
+  font-weight: 700;
 }
 
 p {
@@ -26,15 +41,19 @@ p {
 }
 
 .rolls-complement {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .delivery {
-  font-size: 11px;
-  line-height: 2px;
+  font-size: 13px;
+  line-height: 5px;
+}
+
+.delivery_announcement {
+  color: hsl(244, 38%, 16%);
 }
 
 .image img {
-  width: 100%;
-  
+  width: 99%;
+  border-radius: 15px;
 }
