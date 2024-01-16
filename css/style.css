@@ -12,6 +12,7 @@ body {
 
 .main {
   color: hsl(244, 38%, 16%);
+  justify-content: center;
 }
 
 .container {
